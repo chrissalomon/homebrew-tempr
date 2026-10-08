@@ -2,28 +2,28 @@
 class Tempr < Formula
   desc "Sign in, chat, and run agentic coding tasks against your Tempr license from the terminal"
   homepage "https://temprhq.io"
-  version "0.9.14"
+  version "0.9.15"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://temprhq.io/cli/v0.9.14/tempr-0.9.14-osx-arm64.tar.gz"
-      sha256 "e6bb8e30392f5113365a6f6a1f6cc518da001024920317a695877b23f58618cc"
+      url "https://temprhq.io/cli/v0.9.15/tempr-0.9.15-osx-arm64.tar.gz"
+      sha256 "0b0d8c0240f11169f4c7618c5e3c1da54dd61d808b430152beb969a1ade9cfd6"
     end
     on_intel do
-      url "https://temprhq.io/cli/v0.9.14/tempr-0.9.14-osx-x64.tar.gz"
-      sha256 "cb5db257f58633195051af09d3bb8ff5de4471dad9773254c81df21f98ff9c60"
+      url "https://temprhq.io/cli/v0.9.15/tempr-0.9.15-osx-x64.tar.gz"
+      sha256 "50f894d55641c2dfca2fdbee67308406dd87f80fafb96c1ebec8a48a6478ad6e"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://temprhq.io/cli/v0.9.14/tempr-0.9.14-linux-arm64.tar.gz"
-      sha256 "2d8fff458e07b0c01dc801348575e24b6912d929fd78c0cfdbd13a56860fbe62"
+      url "https://temprhq.io/cli/v0.9.15/tempr-0.9.15-linux-arm64.tar.gz"
+      sha256 "b419710b9f3589a66770be485403e01aa47b1be810d20d9aa098ccd77d0b63a1"
     end
     on_intel do
-      url "https://temprhq.io/cli/v0.9.14/tempr-0.9.14-linux-x64.tar.gz"
-      sha256 "a290543356852f7534a73786ee1585ee97196fc25e1258da02fd377ebf151013"
+      url "https://temprhq.io/cli/v0.9.15/tempr-0.9.15-linux-x64.tar.gz"
+      sha256 "3740f81b8c25f54ab9b6e97dc8096dde0b8659a684de51403af925280a4729e2"
     end
   end
 
